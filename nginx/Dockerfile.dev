@@ -1,0 +1,4 @@
+FROM nginx
+COPY ./default.conf /etc/nginx/conf.d/default.conf
+#you can find this command in the base image at docker hub 
+#this command replaces the default image file by the one we created
